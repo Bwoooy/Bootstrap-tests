@@ -1,0 +1,79 @@
+@import "variables";
+
+@mixin sect($fondo,$cLletra){
+    background-color:$fondo;
+    padding-left:15%;
+    padding-right:15%;
+    padding-bottom:10%;
+    width:100%;
+    text-align:justify;
+    font-size:125%;
+    color:$cLletra;
+    font-family:$lletraSec;
+}
+
+@mixin degrad($colortop,$colorbot){
+    width:100%;
+    padding-top:30%;
+    background:linear-gradient($colortop,$colorbot)
+}
+
+#finalportada{
+    @include degrad($colorUno,$colorCuatro);
+    padding-top:40%;
+}
+
+nav div ul li a{
+    font-family:$lletraSec;
+}
+
+//Separació entre la barra de vocabulary i contingut
+
+.tab-pane .fade{
+    padding-top:15%;
+}
+
+.sect-1{
+    @include sect($colorCuatro,white);
+}
+
+.sect-2{
+    @include sect($colorCinco,black);
+    padding-top:27%;
+}
+
+section{
+
+    h1{
+        font-family:$lletraGuay;
+        font-size:275%;
+        text-align:center;
+        padding-bottom:15%;
+    }
+
+    ul{
+        background-color:white;
+    }
+}
+
+#nav-tabContent{
+    padding-top:30%;
+}
+
+.degrad-1{
+    @include degrad($colorCuatro,$colorCinco)
+}
+
+.lletra{
+    font-family: $lletraGuay;
+    font-size:22px;
+ }
+
+ .text-align-center{
+     text-align:center;
+     font-family:$lletraGuay;
+ }
+
+
+
+
