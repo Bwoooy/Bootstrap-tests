@@ -1,0 +1,60 @@
+#finalportada {
+  width: 100%;
+  padding-top: 30%;
+  background: linear-gradient(#15232C, #004978);
+  padding-top: 40%; }
+
+nav div ul li a {
+  font-family: "Open Sans", sans-serif; }
+
+.tab-pane .fade {
+  padding-top: 15%; }
+
+.sect-1 {
+  background-color: #004978;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 10%;
+  width: 100%;
+  text-align: justify;
+  font-size: 125%;
+  color: white;
+  font-family: "Open Sans", sans-serif; }
+
+.sect-2 {
+  background-color: #5E9DC5;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 10%;
+  width: 100%;
+  text-align: justify;
+  font-size: 125%;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 27%; }
+
+section h1 {
+  font-family: "Lobster", cursive;
+  font-size: 275%;
+  text-align: center;
+  padding-bottom: 15%; }
+section ul {
+  background-color: white; }
+
+#nav-tabContent {
+  padding-top: 30%; }
+
+.degrad-1 {
+  width: 100%;
+  padding-top: 30%;
+  background: linear-gradient(#004978, #5E9DC5); }
+
+.lletra {
+  font-family: "Lobster", cursive;
+  font-size: 22px; }
+
+.text-align-center {
+  text-align: center;
+  font-family: "Lobster", cursive; }
+
+/*# sourceMappingURL=estilos.css.map */

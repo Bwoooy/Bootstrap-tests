@@ -1,0 +1,39 @@
+#particles-js{
+    background-color:#15232C; /* url(media/fondo.png)*/
+    background-position:center;
+    background-attachment:contain;
+    background-size:cover;
+    width:100%; 
+}
+
+.width-letters{
+    top:20%;
+    position:absolute;
+    width:95%;
+    text-align:center;
+    z-index:1;
+}
+
+.letters-slider{
+    width:90%;
+    margin:auto;
+    padding-right:45%;   
+}
+
+.letters-slider h1{
+    font-family:'Lobster', cursive;
+    color: white;
+    font-size:450%;
+}
+
+.letters-slider p{
+    padding-top:15%;
+    font-family:'Lobster', cursive;
+    color:white;
+    font-size:200%;
+    animation-delay:1.5s; 
+}
+
+
+
+
